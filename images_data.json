@@ -1,0 +1,497 @@
+[
+  {
+    "src": "images/sample_frames/60b817e8dbc06a5178153dc221509bd2.png",
+    "score1": 30.28213922737295,
+    "score2": 20.046025935646902
+  },
+  {
+    "src": "images/sample_frames/1247c276b1aedc67bb4c15e67ba02039.png",
+    "score1": 27.80961869397096,
+    "score2": 21.0283755080837
+  },
+  {
+    "src": "images/sample_frames/1cc6aac616c04989baff5af25fa1c7d5.png",
+    "score1": 28.778262276880383,
+    "score2": 22.373167459780547
+  },
+  {
+    "src": "images/sample_frames/d983501a4dcbba8e49d0d5cf39b4553a.png",
+    "score1": 32.03865689995267,
+    "score2": 22.55434135051484
+  },
+  {
+    "src": "images/sample_frames/1e4a61204a50569063d8586b0907065b.png",
+    "score1": 31.083259449380076,
+    "score2": 23.546163491362613
+  },
+  {
+    "src": "images/sample_frames/a2d72e88715e435cffb6674877114e82.png",
+    "score1": 33.98145595836514,
+    "score2": 24.620895357866008
+  },
+  {
+    "src": "images/sample_frames/45e9e83371804aa28acdf84d8acc9f24.png",
+    "score1": 25.71042117559334,
+    "score2": 24.625906270213143
+  },
+  {
+    "src": "images/sample_frames/02072935518f51e0457ab6f63920d5c4.png",
+    "score1": 54.93306033301411,
+    "score2": 25.12771129163202
+  },
+  {
+    "src": "images/sample_frames/36c26fb962113748b98308527297f7c9.png",
+    "score1": 34.18879876477714,
+    "score2": 25.37387992409512
+  },
+  {
+    "src": "images/sample_frames/555b5b0c8bc8ba1d925f596b9a1476dc.png",
+    "score1": 26.432285132346536,
+    "score2": 26.76910266972977
+  },
+  {
+    "src": "images/sample_frames/ef388cdb049f42c749c72516a6525078.png",
+    "score1": 33.0391716351747,
+    "score2": 27.33206374076205
+  },
+  {
+    "src": "images/sample_frames/c934140abc52dc4d76c1d461c2acc9c7.png",
+    "score1": 41.87244435992569,
+    "score2": 28.639133481425866
+  },
+  {
+    "src": "images/sample_frames/0a4ff61e8dcae81528566d3fd46f715a.png",
+    "score1": 33.60978738209107,
+    "score2": 29.2016149828107
+  },
+  {
+    "src": "images/sample_frames/7b15e843790150afc56f385f9c28b55c.png",
+    "score1": 35.672186860217145,
+    "score2": 29.27830327455242
+  },
+  {
+    "src": "images/sample_frames/ceab97884023625e659063639c5aff8c.png",
+    "score1": 34.93666450229735,
+    "score2": 30.07879243269109
+  },
+  {
+    "src": "images/sample_frames/0aa42d94207581f2947f4b79b751c1bd.png",
+    "score1": 38.240526361829566,
+    "score2": 30.46479453021344
+  },
+  {
+    "src": "images/sample_frames/df5321e75e09f14dd4193f464d579996.png",
+    "score1": 34.895732559152975,
+    "score2": 30.58671349703041
+  },
+  {
+    "src": "images/sample_frames/2bc0086a08685ecdd1b9e7853d1a1e26.png",
+    "score1": 44.911014711759066,
+    "score2": 32.10155963297913
+  },
+  {
+    "src": "images/sample_frames/fec90bebf12dc768a88b35f1826c7d0a.png",
+    "score1": 29.082963333691463,
+    "score2": 32.368115842735286
+  },
+  {
+    "src": "images/sample_frames/970250fdd6822d46af547e8d9f4bdc1f.png",
+    "score1": 38.40431677677837,
+    "score2": 32.763710521438256
+  },
+  {
+    "src": "images/sample_frames/0551467bd194a872b6da59b00b7647ae.png",
+    "score1": 39.88784762636087,
+    "score2": 32.97594670407995
+  },
+  {
+    "src": "images/sample_frames/3b5f05cf4d517ab7847aebc64a6bc41d.png",
+    "score1": 40.129418444126,
+    "score2": 33.43603821798552
+  },
+  {
+    "src": "images/sample_frames/a4a69afba327fa040c1690051a2efbe6.png",
+    "score1": 46.66273828609141,
+    "score2": 33.44651170977158
+  },
+  {
+    "src": "images/sample_frames/6d17438771d6065c8750f85c1a0f325c.png",
+    "score1": 39.147876487689786,
+    "score2": 33.6072039293775
+  },
+  {
+    "src": "images/sample_frames/f4839a4bd67ea4b9bf45f73b1a5b15de.png",
+    "score1": 40.53272616689366,
+    "score2": 34.35371082306223
+  },
+  {
+    "src": "images/sample_frames/45cf62d7513519298f9a01be7ff16d49.png",
+    "score1": 34.4163502431555,
+    "score2": 34.49646085201129
+  },
+  {
+    "src": "images/sample_frames/8e7b2a7f1356b9b250d8b89e4b61377c.png",
+    "score1": 45.460590113156776,
+    "score2": 34.56063655765956
+  },
+  {
+    "src": "images/sample_frames/fdf17a82d71c52a1fde052b29acb0fbd.png",
+    "score1": 41.02956813868038,
+    "score2": 35.20968826268563
+  },
+  {
+    "src": "images/sample_frames/ada61b7939307848ccab365018cb75a9.png",
+    "score1": 44.42833131349175,
+    "score2": 36.19051083549248
+  },
+  {
+    "src": "images/sample_frames/e9977b799963cf4605e85c0a272736bb.png",
+    "score1": 37.19714464829089,
+    "score2": 36.43212792149709
+  },
+  {
+    "src": "images/sample_frames/275b9ff85d65e596a337b406976e6403.png",
+    "score1": 40.629336441412704,
+    "score2": 36.56105946223026
+  },
+  {
+    "src": "images/sample_frames/e072b119c4086911bc244211f71b298d.png",
+    "score1": 41.39770541365326,
+    "score2": 36.58862045943501
+  },
+  {
+    "src": "images/sample_frames/b7feb1b6599c75c59e693d71a208ab0f.png",
+    "score1": 35.29223786687354,
+    "score2": 36.74022324845235
+  },
+  {
+    "src": "images/sample_frames/15b943d4a61023be8f09298e5a4454cc.png",
+    "score1": 37.78428892268718,
+    "score2": 37.35764909056199
+  },
+  {
+    "src": "images/sample_frames/44950ef39c57bdac6b6bbd2e1ec77054.png",
+    "score1": 41.460680543282095,
+    "score2": 37.78048280331765
+  },
+  {
+    "src": "images/sample_frames/183c03958b60ba4307ef9d324e365f6d.png",
+    "score1": 45.83031904204091,
+    "score2": 38.10121081084996
+  },
+  {
+    "src": "images/sample_frames/0429820ee0f65c723a5a3972166e7387.png",
+    "score1": 39.07451311792697,
+    "score2": 38.2348476225984
+  },
+  {
+    "src": "images/sample_frames/dba074c85ed3e1a5062bd8e676c6c7f7.png",
+    "score1": 46.498020718345785,
+    "score2": 38.34588892106629
+  },
+  {
+    "src": "images/sample_frames/6024090a24c3ad3245b9eb7d18463cf3.png",
+    "score1": 49.26492617348941,
+    "score2": 38.75637354492102
+  },
+  {
+    "src": "images/sample_frames/6606ec6087bd188d550751ca43eb952e.png",
+    "score1": 37.8283822303441,
+    "score2": 38.93161182425979
+  },
+  {
+    "src": "images/sample_frames/d14978afcfa9182860902a14b7205290.png",
+    "score1": 43.20155481583019,
+    "score2": 38.95651237708416
+  },
+  {
+    "src": "images/sample_frames/c4ade3622ee326261c632cb1fe55b761.png",
+    "score1": 45.47783936603241,
+    "score2": 39.304827914027925
+  },
+  {
+    "src": "images/sample_frames/89c506f8318d8ecc2acc9c240c694868.png",
+    "score1": 51.06996577180615,
+    "score2": 39.56916987205454
+  },
+  {
+    "src": "images/sample_frames/c8290133d5cd5ca7a512fa140b1274ea.png",
+    "score1": 45.97101530083852,
+    "score2": 39.64215725560177
+  },
+  {
+    "src": "images/sample_frames/3e9958b84f1a06d3fbc9879623495846.png",
+    "score1": 54.394041088973744,
+    "score2": 39.665671961877024
+  },
+  {
+    "src": "images/sample_frames/886407d3aa6ccfe3ec749ee7ed857735.png",
+    "score1": 37.26364631532433,
+    "score2": 39.79147940460719
+  },
+  {
+    "src": "images/sample_frames/058b715dac2400932029e63f3c5b8c8b.png",
+    "score1": 43.49756626064057,
+    "score2": 39.88078750008463
+  },
+  {
+    "src": "images/sample_frames/b9534b55bd0ff98db1d91103b9b83f39.png",
+    "score1": 42.82436982512823,
+    "score2": 40.08423648133209
+  },
+  {
+    "src": "images/sample_frames/c8f36d1d04dbbfc427f8452cee6e536d.png",
+    "score1": 44.92167384361235,
+    "score2": 40.25119064814993
+  },
+  {
+    "src": "images/sample_frames/dd7c480ea12ed87bcc695acbd2728304.png",
+    "score1": 59.36123971669673,
+    "score2": 40.33067346707015
+  },
+  {
+    "src": "images/sample_frames/34c29c9a2cac7228751fb846218170e7.png",
+    "score1": 43.17615647762243,
+    "score2": 40.353042672462486
+  },
+  {
+    "src": "images/sample_frames/26978a3dd0151f603f97fbed38dc1c98.png",
+    "score1": 37.42876687270822,
+    "score2": 40.94075795089331
+  },
+  {
+    "src": "images/sample_frames/f95c073a8958c61dcc365c88fbfb7e25.png",
+    "score1": 46.79953250238346,
+    "score2": 41.40970983979063
+  },
+  {
+    "src": "images/sample_frames/3f261bcd24fad9d908ebb20045ae4bf8.png",
+    "score1": 38.91600573659927,
+    "score2": 41.4544391745867
+  },
+  {
+    "src": "images/sample_frames/b7b87347404be4616a64e25edda4c937.png",
+    "score1": 47.741292076609234,
+    "score2": 41.52540183761374
+  },
+  {
+    "src": "images/sample_frames/19192ab06fae1697b8308b3866ceeb25.png",
+    "score1": 39.45988999543225,
+    "score2": 41.631214952376425
+  },
+  {
+    "src": "images/sample_frames/4921c2e947069e1e9e81ca943abddd06.png",
+    "score1": 43.12983523856476,
+    "score2": 42.109744940099176
+  },
+  {
+    "src": "images/sample_frames/5da30f1b50f61f88accd8c7948456aed.png",
+    "score1": 41.70893897957233,
+    "score2": 42.291364912894416
+  },
+  {
+    "src": "images/sample_frames/8168169f64783838462719d4958a8cb9.png",
+    "score1": 44.192778901334165,
+    "score2": 42.385131080040935
+  },
+  {
+    "src": "images/sample_frames/53decce2b65dad10dacb47021ece11e8.png",
+    "score1": 55.80187831545832,
+    "score2": 42.76009279761306
+  },
+  {
+    "src": "images/sample_frames/c4a622f41b508dcd24ff65804f452540.png",
+    "score1": 38.31635121746102,
+    "score2": 42.94093072643973
+  },
+  {
+    "src": "images/sample_frames/22f48b56c8d7a340f605108735b45919.png",
+    "score1": 41.57988665411494,
+    "score2": 43.28198910177544
+  },
+  {
+    "src": "images/sample_frames/ad5d1e4ec0934a4a4869c82de0cba18f.png",
+    "score1": 48.520125066295705,
+    "score2": 43.76037546488169
+  },
+  {
+    "src": "images/sample_frames/10b6c8acbbdd976e5ad4845b998aad0e.png",
+    "score1": 46.87440217374918,
+    "score2": 44.10137131901317
+  },
+  {
+    "src": "images/sample_frames/989e9156db6f8e7b99d145c0b935b4cc.png",
+    "score1": 48.61598038136664,
+    "score2": 44.15547284623008
+  },
+  {
+    "src": "images/sample_frames/2458f3ab169b1649c345c83de510f04d.png",
+    "score1": 41.481153987516535,
+    "score2": 44.56905368616865
+  },
+  {
+    "src": "images/sample_frames/9ff69d52f51663ec4247a1ec970a31b3.png",
+    "score1": 43.73213138350352,
+    "score2": 44.61858321412057
+  },
+  {
+    "src": "images/sample_frames/30e3a93edbe3371b7be8965d6ec7411b.png",
+    "score1": 50.88537800502302,
+    "score2": 44.63989082481943
+  },
+  {
+    "src": "images/sample_frames/f53719bf75c483bd94139b5491e94e59.png",
+    "score1": 46.56556671442914,
+    "score2": 44.96047919027587
+  },
+  {
+    "src": "images/sample_frames/b9492f6afdc85821f595c0bd6a7841f7.png",
+    "score1": 47.25914120296013,
+    "score2": 45.13767915893396
+  },
+  {
+    "src": "images/sample_frames/49e9d0c57442e0b84e937b15d78d7528.png",
+    "score1": 37.61286069333158,
+    "score2": 45.15665704135128
+  },
+  {
+    "src": "images/sample_frames/4bf5d80e4ffed050b167f5ed1f108a6c.png",
+    "score1": 44.73432003037932,
+    "score2": 45.17324698032457
+  },
+  {
+    "src": "images/sample_frames/502dcd970e48be53ad8f75eb53e73605.png",
+    "score1": 48.44787879232593,
+    "score2": 45.387122936067016
+  },
+  {
+    "src": "images/sample_frames/9b17fc0162ac2b06de0e105d617cc4c1.png",
+    "score1": 40.69577631820972,
+    "score2": 45.470591650525385
+  },
+  {
+    "src": "images/sample_frames/3c0f0e5b9137c96bdb9692c1a6c844d2.png",
+    "score1": 47.00367421266181,
+    "score2": 45.74649871330901
+  },
+  {
+    "src": "images/sample_frames/21f517a5c4bc11872b9bc26395692f70.png",
+    "score1": 47.9884141967483,
+    "score2": 45.772961704102855
+  },
+  {
+    "src": "images/sample_frames/608b2c35a5c44588bfcefbaf6b6319ff.png",
+    "score1": 49.124199639560274,
+    "score2": 45.78584066304059
+  },
+  {
+    "src": "images/sample_frames/ba748a6313816a313e99107e060beabb.png",
+    "score1": 47.27529515015348,
+    "score2": 45.82966334840432
+  },
+  {
+    "src": "images/sample_frames/a0fd27099f98c41d808aa7bdf21eddae.png",
+    "score1": 51.07349365016895,
+    "score2": 45.873015285288304
+  },
+  {
+    "src": "images/sample_frames/8f51c37d364d0702636a00190223f55f.png",
+    "score1": 49.24497996729873,
+    "score2": 46.17456470309852
+  },
+  {
+    "src": "images/sample_frames/daeaa2c5f141d63b0c1c648a5a78d99b.png",
+    "score1": 42.38164063406828,
+    "score2": 46.38660699444909
+  },
+  {
+    "src": "images/sample_frames/d7acddec002afb949fcc787206c79ffa.png",
+    "score1": 38.96281887852507,
+    "score2": 46.55420914545643
+  },
+  {
+    "src": "images/sample_frames/3a5ad99e81f61dda4df8ceb376cd5c8e.png",
+    "score1": 44.77430809046757,
+    "score2": 46.59965439812754
+  },
+  {
+    "src": "images/sample_frames/8cc7a592d256b62ed486061fe89f9d1f.png",
+    "score1": 45.45857222910872,
+    "score2": 46.74825182771112
+  },
+  {
+    "src": "images/sample_frames/d9a8821962357467fc3ac1e4635613ca.png",
+    "score1": 41.10658012877938,
+    "score2": 47.21658727887967
+  },
+  {
+    "src": "images/sample_frames/6eb8d59bfad0a75354a275502574903b.png",
+    "score1": 44.71742010126749,
+    "score2": 47.30664937110888
+  },
+  {
+    "src": "images/sample_frames/e64e735a204ae504314382d7b53e67e5.png",
+    "score1": 48.30138993798774,
+    "score2": 47.73706132871381
+  },
+  {
+    "src": "images/sample_frames/41ba2ccf03692702e9f6defed294c107.png",
+    "score1": 47.21391662440192,
+    "score2": 47.918162516845165
+  },
+  {
+    "src": "images/sample_frames/8c0f51ba83618775c7b5c67938f23bb6.png",
+    "score1": 56.617711664447285,
+    "score2": 47.94338288419114
+  },
+  {
+    "src": "images/sample_frames/474bb4dd9f275f21824534a37a59d0de.png",
+    "score1": 45.1807387254559,
+    "score2": 48.01759451509678
+  },
+  {
+    "src": "images/sample_frames/fae6a0cd83f0ab6b935a46a7e16b0af8.png",
+    "score1": 46.53882249257853,
+    "score2": 48.16920740792574
+  },
+  {
+    "src": "images/sample_frames/873dc8ee7a8640d679a54b275aebb7c5.png",
+    "score1": 47.57014545683961,
+    "score2": 48.32091443258791
+  },
+  {
+    "src": "images/sample_frames/33ece038bab24ff687ae8fe6e0cea15b.png",
+    "score1": 45.52695835109446,
+    "score2": 48.36672257108821
+  },
+  {
+    "src": "images/sample_frames/432469e3cd3ac43575d3ea3ad340cd3e.png",
+    "score1": 47.37073452788748,
+    "score2": 48.52009109018001
+  },
+  {
+    "src": "images/sample_frames/dc480ef01c66f7234af238fd5758e0f3.png",
+    "score1": 43.9008059016496,
+    "score2": 48.66784666642792
+  },
+  {
+    "src": "images/sample_frames/d3b34f3432e56275e0518f4c99c78825.png",
+    "score1": 45.78115907481252,
+    "score2": 48.75691583715935
+  },
+  {
+    "src": "images/sample_frames/636a0412c6c25b85e3bd2920a454ba62.png",
+    "score1": 43.39426547124084,
+    "score2": 48.770428648828926
+  },
+  {
+    "src": "images/sample_frames/992145694fa2a780dde10fc7b55e0118.png",
+    "score1": 54.4918555503786,
+    "score2": 48.88585288864462
+  },
+  {
+    "src": "images/sample_frames/64c332ac8288dbbe5fd517380b4988c5.png",
+    "score1": 49.58702171305161,
+    "score2": 48.94721109384308
+  }
+]
