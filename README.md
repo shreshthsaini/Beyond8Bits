@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="static/images/logo-512.png" alt="Beyond8Bits logo" width="120"/>
+</p>
+
 # Beyond8Bits — Seeing Beyond8Bits
 
 **Subjective and Objective Quality Assessment of HDR-UGC Videos**
@@ -6,8 +10,15 @@ CVPR 2026
 Shreshth Saini¹, Bowen Chen¹, Neil Birkbeck², Yilin Wang², Balu Adsumilli², Alan C. Bovik¹,³
 ¹ Laboratory for Image and Video Engineering (LIVE), UT Austin &nbsp;·&nbsp; ² Google / YouTube &nbsp;·&nbsp; ³ University of Colorado Boulder
 
-> Project page: **https://shreshthsaini.github.io/Beyond8Bits/**
-> Predecessors this release subsumes/extends: [CHUG (ICIP 2025)](https://live.ece.utexas.edu/research/chug/index.html) · [BrightRate / BrightVQ (WACV 2026 Oral)](https://shreshthsaini.github.io/BrightVQ/)
+<p align="left">
+  <a href="https://shreshthsaini.github.io/Beyond8Bits/"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-Beyond8Bits-6b2bd9?style=flat-square"></a>
+  <a href="https://arxiv.org/abs/2603.00938"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2603.00938-b31b1b?style=flat-square&logo=arxiv&logoColor=white"></a>
+  <a href="static/pdfs/beyond8bits.pdf"><img alt="Paper PDF" src="https://img.shields.io/badge/Paper-PDF-4c1d95?style=flat-square"></a>
+  <a href="static/pdfs/beyond8bits-supp.pdf"><img alt="Supplementary PDF" src="https://img.shields.io/badge/Supplementary-PDF-312e81?style=flat-square"></a>
+  <a href="https://live.ece.utexas.edu/research/beyond8bits/index.html"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-LIVE%20UT%20Austin-ff5a8a?style=flat-square"></a>
+  <a href="https://utexas.box.com/s/pvz8zpmpogvpy62pqpar2e54c6ovyd5z"><img alt="UT-Box" src="https://img.shields.io/badge/UT--Box-Full%20Package-bf5700?style=flat-square"></a>
+  <a href="https://github.com/shreshthsaini/Beyond8Bits"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Beyond8Bits-181717?style=flat-square&logo=github"></a>
+</p>
 
 ---
 
@@ -26,9 +37,6 @@ Beyond8Bits is — to our knowledge — the **largest crowdsourced HDR User-Gene
 | **Rating instrument** | Continuous 0–100 Likert, ITU-R BT.500-14 | same |
 | **Split** | 70 / 20 / 10 (train / val / test), by source | 70 / 10 / 20 (28,987 / 4,151 / 8,281) |
 | **MOS aggregation** | SUREAL MLE; median inter-subject SRCC 0.90 | same |
-| **Subsumes** | CHUG (ICIP 2025), BrightVQ (WACV 2026 Oral) | |
-
-The released subset is the license-cleared slice. The complete package (including per-rating raw CSVs) is also mirrored on UT-Box: https://utexas.box.com/s/pvz8zpmpogvpy62pqpar2e54c6ovyd5z
 
 ---
 
@@ -51,12 +59,6 @@ Beyond8Bits/
     ├── Beyond8Bits_publish_crowd.csv  # CHUG-compatible crowd-only subset (5,992 rows)
     └── Beyond8Bits_publish_crowd.txt  # Matching crowd-only ID list
 ```
-
-Bundled artifacts:
-
-- `static/pdfs/beyond8bits.pdf` — main paper
-- `static/pdfs/beyond8bits-supp.pdf` — supplementary
-- `static/images/overview-fig1.png`, `hdrq-hapo-method.png`, `video-grid-supple.png` — camera-ready figures used by the project page
 
 Per-rating raw CSVs and the full archive live on UT-Box: https://utexas.box.com/s/pvz8zpmpogvpy62pqpar2e54c6ovyd5z
 
