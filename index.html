@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos. CVPR 2026 — the largest HDR UGC video quality dataset with ~1.46M subjective ratings and a reasoning-based MLLM baseline (HAPO).">
-  <meta property="og:title" content="Seeing Beyond 8bits — HDR-UGC Quality Assessment (CVPR 2026)" />
-  <meta property="og:description" content="The largest HDR UGC video quality dataset: 5.9K source videos, 41K+ transcoded videos, ~1.46M subjective ratings, plus a reasoning-aware MLLM baseline trained with HAPO." />
-  <meta property="og:image" content="static/images/chug-grid.png" />
-  <meta name="twitter:title" content="Seeing Beyond 8bits — HDR-UGC Quality Assessment (CVPR 2026)">
-  <meta name="twitter:description" content="Full HDR UGC dataset and MLLM baseline for perceptual quality assessment.">
-  <meta name="twitter:image" content="static/images/chug-grid.png">
+  <meta name="description" content="Seeing Beyond8Bits: Subjective and Objective Quality Assessment of HDR-UGC Videos. The largest crowdsourced HDR-UGC VQA dataset (~44K videos from 6,861 sources, >1.5M ratings) and HDR-Q, the first MLLM for HDR-UGC quality assessment, trained with HDR-Aware Policy Optimization (HAPO).">
+  <meta property="og:title" content="Seeing Beyond8Bits — HDR-UGC Quality Assessment (Beyond8Bits + HDR-Q)" />
+  <meta property="og:description" content="The largest HDR-UGC video quality dataset (~44K videos from 6,861 sources, >1.5M ratings) plus HDR-Q, the first MLLM for HDR-UGC VQA, trained with HAPO (HDR-Aware Policy Optimization)." />
+  <meta property="og:image" content="static/images/overview-fig1.png" />
+  <meta name="twitter:title" content="Seeing Beyond8Bits — HDR-UGC Quality Assessment (Beyond8Bits + HDR-Q)">
+  <meta name="twitter:description" content="Largest crowdsourced HDR-UGC dataset and the first MLLM (HDR-Q) for HDR-UGC VQA, trained with HAPO.">
+  <meta name="twitter:image" content="static/images/overview-fig1.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="keywords" content="HDR, UGC, Video Quality Assessment, Dataset, MOS, VQA, MLLM, Reinforcement Learning, HAPO, CVPR 2026">
+  <meta name="keywords" content="HDR, UGC, Video Quality Assessment, Dataset, MOS, VQA, MLLM, HDR-Q, Reinforcement Learning, HAPO, GRPO, LIVE-HDR, SFV+HDR">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Seeing Beyond 8bits — Subjective &amp; Objective HDR-UGC Quality Assessment (CVPR 2026)</title>
+  <title>Seeing Beyond8Bits — Subjective &amp; Objective HDR-UGC Quality Assessment</title>
+  <link rel="icon" type="image/svg+xml" href="static/images/favicon.svg">
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
@@ -30,19 +32,19 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered hero-panel">
-            <span class="hero-eyebrow">CVPR 2026 &nbsp;·&nbsp; Dataset &amp; Method</span>
+            <span class="hero-eyebrow">Dataset &amp; Method &nbsp;·&nbsp; CVPR 2026</span>
             <h1 class="title is-1 publication-title">
-              Seeing <span class="title-accent">Beyond 8&#8209;Bits</span>:<br>
+              Seeing <span class="title-accent">Beyond8Bits</span>:<br>
               Subjective and Objective Quality Assessment of HDR-UGC Videos
             </h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Shreshth Saini<sup>1</sup>, Bowen Chen<sup>1</sup>, Neil Birkbeck<sup>2</sup>, Yilin Wang<sup>2</sup>, Balu Adsumilli<sup>2</sup>, Alan C. Bovik<sup>1</sup></span>
+              <span class="author-block">Shreshth Saini<sup>1</sup>, Bowen Chen<sup>1</sup>, Neil Birkbeck<sup>2</sup>, Yilin Wang<sup>2</sup>, Balu Adsumilli<sup>2</sup>, Alan C. Bovik<sup>1,3</sup></span>
             </div>
             <div class="is-size-6 publication-authors">
-              <span class="author-block"><sup>1</sup>The University of Texas at Austin &nbsp;&nbsp; <sup>2</sup>YouTube, Google Inc.</span>
+              <span class="author-block"><sup>1</sup>Laboratory for Image and Video Engineering (LIVE), UT Austin &nbsp;&nbsp; <sup>2</sup>Google / YouTube &nbsp;&nbsp; <sup>3</sup>University of Colorado Boulder</span>
             </div>
             <div class="publication-authors">
-              <span class="venue-line">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</span>
+              <span class="venue-line">Dataset: <b>Beyond8Bits</b> &nbsp;·&nbsp; Method: <b>HDR-Q</b> (MLLM) with <b>HAPO</b> (HDR-Aware Policy Optimization)</span>
             </div>
 
             <div class="publication-links">
@@ -59,19 +61,13 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="ai ai-arxiv"></i></span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <span class="link-block">
                 <a href="https://github.com/shreshthsaini/Beyond8Bits" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fab fa-github"></i></span>
                   <span>GitHub</span>
                 </a>
               </span>
               <span class="link-block">
-                <a href="#dataset-access" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://live.ece.utexas.edu/research/beyond8bits/index.html" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fas fa-database"></i></span>
                   <span>Dataset</span>
                 </a>
@@ -86,22 +82,23 @@
 
             <div class="hero-stats">
               <div class="stat-item">
-                <p class="stat-value">5,917</p>
-                <p class="stat-label">HDR UGC Source Videos</p>
+                <p class="stat-value">6,861</p>
+                <p class="stat-label">HDR-UGC Source Videos<br><span class="is-size-7">(2,253 Crowd + 4,608 Vimeo)</span></p>
               </div>
               <div class="stat-item">
-                <p class="stat-value">41,419</p>
-                <p class="stat-label">Transcoded / Distorted Videos</p>
+                <p class="stat-value">~44K</p>
+                <p class="stat-label">Transcoded / Distorted Videos<br><span class="is-size-7">bit-ladder 0.2&ndash;5 Mbps</span></p>
               </div>
               <div class="stat-item">
-                <p class="stat-value">~1.46&nbsp;M</p>
-                <p class="stat-label">Subjective Quality Ratings</p>
+                <p class="stat-value">&gt;1.5&nbsp;M</p>
+                <p class="stat-label">Crowd Subjective Ratings<br><span class="is-size-7">~35 ratings / video on AMT</span></p>
               </div>
               <div class="stat-item">
-                <p class="stat-value">3</p>
-                <p class="stat-label">Transcoded Resolutions (360p / 720p / 1080p)</p>
+                <p class="stat-value">HDR-Q</p>
+                <p class="stat-label">First MLLM for HDR-UGC VQA<br><span class="is-size-7">Ovis2.5 + LoRA, trained with HAPO</span></p>
               </div>
             </div>
+            <p class="is-size-7 has-text-grey mt-3" style="max-width:720px;margin:0 auto;">Publish-ready release: <b>5,917</b> sources (<b>2,153</b> Crowd + <b>3,764</b> Vimeo) and <b>41,419</b> transcoded clips in <code>data/Beyond8Bits_publish.csv</code>.</p>
           </div>
         </div>
       </div>
@@ -112,8 +109,8 @@
   <section class="section section-soft">
     <div class="container is-max-desktop">
       <div class="column figure-frame">
-        <img src="static/images/chug-grid.png" alt="Sample frames from the Beyond8Bits HDR-UGC dataset" class="dataset-figure">
-        <p class="figure-caption">Representative HDR-UGC frames spanning the Beyond8Bits dataset: portraits, indoor/outdoor scenes, nightlife, nature, sports, and performance content, captured across a wide range of devices, orientations, and capture conditions. <em>Best viewed zoomed in on an HDR-capable display.</em></p>
+        <img src="static/images/overview-fig1.png" alt="Overview of Beyond8Bits dataset and performance evaluation" class="dataset-figure">
+        <p class="figure-caption"><strong>Overview of our dataset and performance evaluation.</strong> <em>Top:</em> Example comparisons between HDR and SDR frames, illustrating differences in brightness range, color depth, and visual detail across diverse scenes. <em>Bottom-left:</em> The distribution of video categories in the HDR-UGC-44K dataset, covering human-centered content, nature &amp; outdoor scenes, and various other real-world scenarios. <em>Bottom-right:</em> Performance comparison between our proposed HDR-Q model and baseline methods on three datasets, where HDR-Q achieves significant improvements in PLCC.</p>
       </div>
     </div>
   </section>
@@ -126,7 +123,7 @@
         <div class="card-content">
           <div class="content has-text-justified">
             <p class="abstract-text">
-              <b>High Dynamic Range (HDR)</b> videos deliver richer luminance, wider color gamut, and deeper contrast than Standard Dynamic Range (SDR) content. The explosive rise of <b>User-Generated Content (UGC)</b> on platforms such as YouTube, Instagram and TikTok has, however, introduced a long tail of <b>capture, editing and compression distortions</b> that are <i>specific to HDR</i> and poorly characterized by existing quality models — most of which were tuned on professionally generated or SDR content. We introduce <b><i>Beyond8Bits</i></b>, the first <b>large-scale, crowd-sourced psychometric study of HDR-UGC video quality</b>. The dataset brings together <b>5,917 source videos</b> (real, in-the-wild user captures plus a curated Vimeo crowd), transcoded across multiple resolutions and bitrates to yield <b>41,419 distorted videos</b>, on which we collected <b>~1.46&nbsp;million perceptual opinion scores</b> via Amazon Mechanical Turk. Building on this resource, we propose a novel <b>reasoning-aware MLLM baseline</b> trained with <b><i>HAPO</i></b> (HDR-Aware Policy Optimization), a reinforcement-learning objective that explicitly aligns multi-modal LLM reasoning with HDR-specific perceptual cues. <i>Beyond8Bits</i> subsumes our earlier <i>CHUG</i> (ICIP '25) and <i>BrightVQ</i> (WACV '26 Oral) releases and is, to the best of our knowledge, the largest and most diverse publicly available HDR-UGC VQA resource to date.
+              <b>High Dynamic Range (HDR)</b> user-generated (UGC) videos are rapidly proliferating across social platforms, yet most perceptual video quality assessment (VQA) systems remain tailored to Standard Dynamic Range (SDR). HDR's higher bit depth, wide color gamut, and elevated luminance range expose distortions such as near-black crushing, highlight clipping, banding, and exposure flicker that amplify UGC artifacts and challenge SDR models. To catalyze progress, we curate <b><i>Beyond8Bits</i></b>, a large-scale subjective dataset of <b>~44K videos from 6,861 sources</b> with <b>&gt;1.5M crowd ratings</b>, spanning diverse scenes, capture conditions, and compression settings. We further introduce <b>HDR-Q</b>, the first Multimodal Large Language Model (MLLM) for HDR-UGC VQA. We propose (i) a novel <b>HDR-aware vision encoder</b> (a SigLIP-2 adapter finetuned with an HDR–SDR dual-domain contrastive objective) to produce HDR-sensitive embeddings, and (ii) <b><i>HAPO</i></b> (HDR-Aware Policy Optimization), an RL fine-tuning framework that anchors reasoning to HDR cues. HAPO augments GRPO with an HDR–SDR contrastive KL that encourages token reliance on HDR inputs, dual-entropy regularization to prevent modality neglect, and a Gaussian-weighted regression reward for fine-grained MOS calibration. Across Beyond8Bits and public HDR-VQA benchmarks (LIVE-HDR, SFV+HDR), HDR-Q delivers state-of-the-art performance. Beyond8Bits subsumes our earlier <i>CHUG</i> (ICIP '25) and <i>BrightVQ</i> (WACV '26 Oral) releases.
             </p>
           </div>
         </div>
@@ -139,32 +136,32 @@
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">What&#39;s in Beyond8Bits</h2>
       <p class="section-intro">
-        Beyond8Bits unifies two prior subjective studies (<b>CHUG</b>, <b>BrightVQ</b>) and adds a substantially larger Vimeo-sourced HDR-UGC partition, plus a new reasoning-aware MLLM baseline. Each source video is transcoded across a multi-rung bit-ladder to expose realistic compression, up/down-scaling and re-encoding distortions.
+        Beyond8Bits unifies two prior subjective studies (<b>CHUG</b>, <b>BrightVQ</b>) and adds a substantially larger Vimeo-sourced HDR-UGC partition, plus <b>HDR-Q</b> — the first MLLM tailored for HDR-UGC quality assessment. Each source video is transcoded across a multi-rung bit-ladder to expose realistic compression, up/down-scaling, and re-encoding distortions.
       </p>
       <div class="feature-grid">
         <div class="feature-card">
           <h4>Largest HDR-UGC study</h4>
-          <p>~1.46&nbsp;M opinion scores across 41K+ videos — an order of magnitude beyond prior HDR VQA datasets.</p>
+          <p>&gt;1.5&nbsp;M opinion scores across ~44K videos from 6,861 sources — an order of magnitude beyond prior HDR VQA datasets.</p>
         </div>
         <div class="feature-card">
           <h4>Two complementary sources</h4>
-          <p>In-the-wild phone captures (<b>Crowd</b>) and curated professional-ish Vimeo HDR content, both transcoded to a common bit-ladder.</p>
+          <p>Consumer-device HDR captures (<b>Crowd</b>: iPhone / Pixel / Galaxy, 2,253 sources) plus CC-licensed Vimeo HDR uploads (<b>Vimeo</b>: 4,608 sources). Both share the same bit-ladder and AMT instrument.</p>
         </div>
         <div class="feature-card">
-          <h4>Fine-grained distortions</h4>
-          <p>Multiple resolutions (360p &rarr; 1080p) and bitrates capture realistic adaptive-streaming artifacts alongside capture-side HDR pitfalls.</p>
+          <h4>Full HDR signaling preserved</h4>
+          <p>Every clip retains <b>10-bit HEVC, PQ transfer, BT.2020</b> gamut through transcoding; clips are trimmed to ≤10&nbsp;seconds.</p>
         </div>
         <div class="feature-card">
-          <h4>Reasoning-aware baseline</h4>
-          <p>A multimodal LLM trained with our <b>HAPO</b> RL objective produces interpretable, HDR-grounded quality judgments.</p>
+          <h4>HDR-Q (first MLLM for HDR-UGC)</h4>
+          <p>An Ovis2.5-based MLLM with a SigLIP-2 HDR-aware vision encoder, trained with <b>HAPO</b> (extends GRPO with HDR–SDR contrastive KL, dual-entropy regularization, and high-entropy weighting).</p>
         </div>
         <div class="feature-card">
           <h4>Rich metadata</h4>
-          <p>Per-video MOS / SOS / raw ratings, resolution, bitrate, framerate, orientation, content group and train/test split.</p>
+          <p>Per-video <b>MOS</b> / <b>SOS</b> (SUREAL-aggregated), <code>type</code>, <code>ref</code>, <code>resolution</code>, <code>bitrate</code>, <code>orientation</code>, <code>framerate</code>, <code>split</code>, and frame dimensions.</p>
         </div>
         <div class="feature-card">
           <h4>Open &amp; reusable</h4>
-          <p>All metadata and the publish-ready subsets are released under a permissive license for non-commercial research.</p>
+          <p>Metadata released under <b>CC&nbsp;BY 4.0</b>; videos retain their original licenses for non-commercial research.</p>
         </div>
       </div>
     </div>
@@ -175,33 +172,60 @@
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">Dataset Composition</h2>
       <p class="section-intro">
-        Beyond8Bits is partitioned into a <b>Crowd</b> split (smartphone-captured HDR-UGC from a curated crowd study) and a <b>Vimeo</b> split (permissively-licensed Vimeo HDR uploads). Both partitions use the same transcoding grid, rating instrument and subject pool, enabling apples-to-apples cross-domain analysis.
+        Beyond8Bits is partitioned into a <b>Crowd</b> split (consumer-device HDR-UGC from a dedicated crowdsourcing campaign) and a <b>Vimeo</b> split (CC-licensed public HDR uploads). Both partitions share the same transcoding bit-ladder, AMT rating instrument, and subject pool, enabling apples-to-apples cross-domain analysis. The table below reports the <i>publish-ready release</i>; paper-reported totals are slightly larger and track ongoing license clearing.
       </p>
 
       <div class="split-grid">
         <div class="split-card">
           <h4>Crowd partition (includes CHUG)</h4>
-          <div class="sub-stat"><span>Source videos</span><strong>2,153</strong></div>
-          <div class="sub-stat"><span>Transcoded videos</span><strong>15,071</strong></div>
-          <div class="sub-stat"><span>Resolutions</span><strong>360p &rarr; 1080p</strong></div>
-          <div class="sub-stat"><span>Orientations</span><strong>Portrait &amp; Landscape</strong></div>
-          <div class="sub-stat"><span>Release status</span><strong>Publish-ready subset (CHUG, 856&nbsp;src / 5,992&nbsp;videos) available now</strong></div>
+          <div class="sub-stat"><span>Source videos (released)</span><strong>2,153</strong></div>
+          <div class="sub-stat"><span>Transcoded videos (released)</span><strong>15,071</strong></div>
+          <div class="sub-stat"><span>Devices</span><strong>iPhone / Pixel / Galaxy (10-bit HEVC)</strong></div>
+          <div class="sub-stat"><span>Orientations</span><strong>Portrait 12,075 &middot; Landscape 2,996</strong></div>
+          <div class="sub-stat"><span>Consent</span><strong>Non-exclusive research redistribution</strong></div>
         </div>
         <div class="split-card">
           <h4>Vimeo partition</h4>
-          <div class="sub-stat"><span>Source videos</span><strong>3,764</strong></div>
-          <div class="sub-stat"><span>Transcoded videos</span><strong>26,348</strong></div>
-          <div class="sub-stat"><span>Resolutions</span><strong>360p &rarr; 1080p</strong></div>
-          <div class="sub-stat"><span>Typical framerates</span><strong>24 / 25 / 30 / 60 fps</strong></div>
-          <div class="sub-stat"><span>Release status</span><strong>Metadata + IDs (videos behind Vimeo CC license, see instructions)</strong></div>
+          <div class="sub-stat"><span>Source videos (released)</span><strong>3,764</strong></div>
+          <div class="sub-stat"><span>Transcoded videos (released)</span><strong>26,348</strong></div>
+          <div class="sub-stat"><span>License</span><strong>Creative Commons (original Vimeo licenses retained)</strong></div>
+          <div class="sub-stat"><span>Orientations</span><strong>Landscape 22,974 &middot; Portrait 3,374</strong></div>
+          <div class="sub-stat"><span>Common framerates</span><strong>24 / 25 / 30 / 60&nbsp;fps</strong></div>
         </div>
         <div class="split-card">
           <h4>Subjective study</h4>
-          <div class="sub-stat"><span>Platform</span><strong>Amazon Mechanical Turk</strong></div>
-          <div class="sub-stat"><span>Ratings collected</span><strong>~1,457,736</strong></div>
+          <div class="sub-stat"><span>Platform</span><strong>Amazon Mechanical Turk (HDR-capable devices only)</strong></div>
+          <div class="sub-stat"><span>Rating instrument</span><strong>Continuous 0–100 Likert, ITU-R BT.500-14</strong></div>
+          <div class="sub-stat"><span>Ratings collected</span><strong>&gt;1.5&nbsp;M (valid, post-QC)</strong></div>
           <div class="sub-stat"><span>Avg. ratings / video</span><strong>~35</strong></div>
-          <div class="sub-stat"><span>Rating instrument</span><strong>Continuous 0–100 single-stimulus</strong></div>
-          <div class="sub-stat"><span>Screening</span><strong>Gold / self-consistency + device / viewing-distance checks</strong></div>
+          <div class="sub-stat"><span>Screening</span><strong>HDR-display qualification quiz, training + calibration phase, golden-set + repeat videos, bit-depth / bandwidth checks</strong></div>
+          <div class="sub-stat"><span>MOS aggregation</span><strong>SUREAL MLE (median inter-subject SRCC 0.90)</strong></div>
+        </div>
+      </div>
+
+      <div class="split-grid" style="margin-top:1rem;">
+        <div class="split-card">
+          <h4>Transcoding grid (bit-ladder)</h4>
+          <div class="sub-stat"><span>Target resolutions</span><strong>360p · 720p · 1080p (+ source/ref)</strong></div>
+          <div class="sub-stat"><span>Bitrate rungs</span><strong>0.2 / 0.5 / 1 / 2 / 3&nbsp;Mbps (paper up to 5&nbsp;Mbps)</strong></div>
+          <div class="sub-stat"><span>Clip length</span><strong>≤ 10 seconds</strong></div>
+          <div class="sub-stat"><span>HDR signaling</span><strong>10-bit HEVC · PQ transfer · BT.2020 gamut</strong></div>
+        </div>
+        <div class="split-card">
+          <h4>Train / Val / Test split (release)</h4>
+          <div class="sub-stat"><span>Split policy</span><strong>70 / 10 / 20 by source identity</strong></div>
+          <div class="sub-stat"><span>Train</span><strong>28,987</strong></div>
+          <div class="sub-stat"><span>Validation</span><strong>4,151</strong></div>
+          <div class="sub-stat"><span>Test</span><strong>8,281</strong></div>
+          <div class="sub-stat"><span>Split column</span><strong><code>split</code> in <code>Beyond8Bits_publish.csv</code></strong></div>
+        </div>
+        <div class="split-card">
+          <h4>Source vs. transcoded</h4>
+          <div class="sub-stat"><span>Reference sources (<code>ref=1</code>)</span><strong>5,917</strong></div>
+          <div class="sub-stat"><span>Transcoded clips (<code>ref=0</code>)</span><strong>35,502</strong></div>
+          <div class="sub-stat"><span>360p transcodes</span><strong>5,917</strong></div>
+          <div class="sub-stat"><span>720p transcodes</span><strong>11,834</strong></div>
+          <div class="sub-stat"><span>1080p transcodes</span><strong>17,751</strong></div>
         </div>
       </div>
     </div>
@@ -212,14 +236,11 @@
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">Content &amp; Score Distribution</h2>
       <p class="section-intro">
-        Beyond8Bits covers a wide swath of perceptual space along spatial and temporal complexity, luminance/chrominance, and overall quality. The figure below (carried over from the CHUG sub-study and extended over the full Beyond8Bits pool) visualizes genre/category spread, device diversity and MOS coverage.
+        Beyond8Bits covers a wide swath of perceptual space along spatial and temporal complexity, luminance/chrominance, and overall quality. The grid below samples representative frames across the dataset's content categories — portraits, group &amp; event footage, and indoor/outdoor scenes — captured under diverse lighting and device conditions.
       </p>
       <div class="column figure-frame">
-        <img src="static/images/data-distri.png" alt="Content and score distribution" class="dataset-figure">
-        <p class="figure-caption">Genre, device, resolution, and MOS distributions in Beyond8Bits (shown here for the CHUG subset; the full-dataset plots are provided in the paper supplementary).</p>
-      </div>
-      <div class="placeholder-note">
-        <strong>Placeholder:</strong> full-dataset SI/TI convex-hull plots, per-partition MOS histograms, and scatter plots will drop into <code>static/images/</code> once the final figures are exported. The hooks are already wired in the HTML.
+        <img src="static/images/video-grid-supple.png" alt="Overview of the Beyond8Bits video dataset illustrated through sampled frames" class="dataset-figure">
+        <p class="figure-caption">Overview of our video dataset illustrated through sampled frames across portraits, group &amp; events, and indoor / outdoor scenes.</p>
       </div>
     </div>
   </section>
@@ -229,7 +250,7 @@
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">Sample Frames with Predicted &amp; Ground-Truth Scores</h2>
       <p class="section-intro">
-        A sample of Beyond8Bits frames with <b>Predicted Score</b> from our reasoning-aware MLLM baseline and the corresponding crowd-sourced <b>Actual MOS</b>. These frames are drawn from the <i>BrightVQ</i> sub-study and are representative of the larger Beyond8Bits pool.
+        A sample of Beyond8Bits frames with <b>Predicted Score</b> from HDR-Q and the corresponding crowd-sourced <b>Actual MOS</b>. These frames are drawn from the <i>BrightVQ</i> sub-study and are representative of the larger Beyond8Bits pool.
       </p>
       <div class="carousel-container frame-carousel">
         <div class="carousel-item carousel-shell" id="carouselItem">
@@ -254,60 +275,6 @@
     </div>
   </section>
 
-  <!-- Results -->
-  <section class="section section-soft">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">Benchmark Results</h2>
-      <p class="section-intro">
-        We benchmark No-Reference VQA methods on Beyond8Bits and two public HDR datasets. Our reasoning-aware MLLM baseline (trained with <b>HAPO</b>) delivers the strongest SRCC across all three, while remaining interpretable. Detailed PLCC / KRCC / RMSE and per-partition results are reported in the paper.
-      </p>
-      <div class="table-container">
-        <table class="table is-bordered is-striped is-hoverable is-fullwidth is-centered metrics-table">
-          <thead>
-            <tr>
-              <th style="width: 14%;"><strong>Dataset</strong></th>
-              <th><strong>COVER</strong></th>
-              <th><strong>DOVER</strong></th>
-              <th><strong>FastVQA</strong></th>
-              <th><strong>HDRChipQA</strong></th>
-              <th><strong>HIDROVQA</strong></th>
-              <th><strong>BrightRate</strong></th>
-              <th><strong>Ours (MLLM + HAPO)</strong></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Beyond8Bits (full)</strong></td>
-              <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
-              <td><strong>reported in paper</strong></td>
-            </tr>
-            <tr>
-              <td><strong>BrightVQ (subset)</strong></td>
-              <td>0.7609</td><td>0.7745</td><td>0.8094</td><td>0.6781</td><td>0.8526</td><td>0.8887</td>
-              <td><strong>reported in paper</strong></td>
-            </tr>
-            <tr>
-              <td><strong>LIVE-HDR</strong></td>
-              <td>0.5022</td><td>0.6303</td><td>0.5182</td><td>0.8250</td><td>0.8793</td><td>0.8907</td>
-              <td><strong>reported in paper</strong></td>
-            </tr>
-            <tr>
-              <td><strong>SFV+HDR</strong></td>
-              <td>0.6613</td><td>0.6001</td><td>0.7130</td><td>0.6296</td><td>0.7003</td><td>0.7328</td>
-              <td><strong>reported in paper</strong></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="figure-caption">SRCC of leading NR-VQA methods (higher is better). The <em>"Ours"</em> column will be populated with final values from the camera-ready; the placeholder rows above preserve the table layout and per-dataset formatting used in our prior BrightRate release.</p>
-
-      <div class="column figure-frame" style="margin-top:1.4rem;">
-        <img src="static/images/corr-scatter-plot-all.png" alt="Correlation scatter plots across datasets" class="dataset-figure">
-        <p class="figure-caption">Predicted-vs-MOS scatter plots across the three evaluation sets (figure carried over from the BrightRate sub-study; full Beyond8Bits scatters will replace this plot on camera-ready).</p>
-      </div>
-    </div>
-  </section>
-
   <!-- AMT Interface -->
   <section class="section">
     <div class="container is-max-desktop">
@@ -327,7 +294,7 @@
     <div class="container is-max-desktop">
       <h2 class="title is-3 section-title">How to Access the Dataset</h2>
       <p class="section-intro">
-        We release per-video metadata (IDs, MOS, SOS, resolution, bitrate, orientation, framerate, content group, split) and the corresponding video payloads via an S3-hosted mirror. The <b>CHUG publish-ready subset</b> is fully available now; remaining partitions are being staged — check the GitHub for the current manifest.
+        We release per-video metadata (<code>video_id</code>, <code>mos</code>, <code>sos</code>, <code>type</code>, <code>ref</code>, <code>resolution</code>, <code>bitrate</code>, <code>orientation</code>, <code>framerate</code>, <code>split</code>, <code>height</code>, <code>width</code>) for the <b>full publish-ready release</b> (41,419 clips across Crowd + Vimeo) and the corresponding video payloads via an S3-hosted mirror. The complete dataset package, including raw per-rating CSV files, is also available on UT-Box.
       </p>
 
       <div class="columns is-multiline">
@@ -351,7 +318,7 @@ cd Beyond8Bits</code></pre>
               <p class="card-header-title">Grab the video-ID manifest</p>
             </header>
             <div class="card-content">
-              <p>The published manifest for the CHUG-compatible crowd subset is at <code>data/Beyond8Bits_publish_crowd.txt</code> (one hashed ID per line) with matched MOS / SOS in <code>data/Beyond8Bits_publish_crowd.csv</code>. Full-dataset manifests (<code>Beyond8Bits_full.txt</code>) will be staged in the same folder.</p>
+              <p>The full Beyond8Bits manifest (41,419 transcoded videos across Crowd + Vimeo partitions) is at <code>data/Beyond8Bits_publish.txt</code> (one hashed ID per line) with matched MOS / SOS and per-video metadata in <code>data/Beyond8Bits_publish.csv</code>. The CHUG-compatible crowd subset remains available at <code>data/Beyond8Bits_publish_crowd.csv</code> / <code>.txt</code>.</p>
             </div>
           </div>
         </div>
@@ -375,7 +342,7 @@ cd Beyond8Bits</code></pre>
             </header>
             <div class="card-content">
               <p>To mirror the full published partition in one shot:</p>
-              <pre><code>cat data/Beyond8Bits_publish_crowd.txt | while read video; do
+              <pre><code>cat data/Beyond8Bits_publish.txt | while read video; do
   aws s3 cp s3://ugchdrmturk/videos/${video}.mp4 ./Beyond8Bits_Videos/
 done</code></pre>
             </div>
@@ -404,12 +371,26 @@ done</code></pre>
             </header>
             <div class="card-content">
               <pre><code>import pandas as pd
-df = pd.read_csv("data/Beyond8Bits_publish_crowd.csv")
+df = pd.read_csv("data/Beyond8Bits_publish.csv")
 print(df.columns.tolist())
-# ['Video', 'mos_j', 'sos_j', 'ref', 'name', 'bitladder',
-#  'resolution', 'bitrate', 'orientation', 'framerate',
-#  'content_name', 'height', 'width']
-print(df["mos_j"].describe())</code></pre>
+# ['video_id', 'mos', 'sos', 'type', 'ref', 'resolution',
+#  'bitrate', 'orientation', 'framerate', 'split',
+#  'height', 'width']
+print(df["mos"].describe())
+print(df["type"].value_counts())   # Crowd vs Vimeo
+print(df["split"].value_counts())  # train / test</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-full">
+          <div class="card access-card">
+            <header class="card-header">
+              <p class="card-header-title">Full dataset package on UT-Box</p>
+            </header>
+            <div class="card-content">
+              <p>The complete Beyond8Bits release — including per-rating raw CSVs and the full metadata bundle — is mirrored on UT-Box:</p>
+              <p><a href="https://utexas.box.com/s/pvz8zpmpogvpy62pqpar2e54c6ovyd5z" target="_blank">https://utexas.box.com/s/pvz8zpmpogvpy62pqpar2e54c6ovyd5z</a></p>
             </div>
           </div>
         </div>
@@ -417,7 +398,7 @@ print(df["mos_j"].describe())</code></pre>
       </div>
 
       <div class="placeholder-note">
-        <strong>Placeholder:</strong> the full-dataset Vimeo partition (<code>Beyond8Bits_full.csv</code>) and the per-rating raw CSV (<code>Beyond8Bits_ratings_raw.csv</code>) are being license-cleared and will be dropped into <code>data/</code> once ready — the download snippets above already reference the final filenames.
+        <strong>Note:</strong> <code>Beyond8Bits_publish.csv</code> / <code>.txt</code> now covers all 41,419 transcoded videos across Crowd + Vimeo partitions.
       </div>
     </div>
   </section>
@@ -431,63 +412,81 @@ print(df["mos_j"].describe())</code></pre>
       <h3 class="title is-4 sample-group-title">Portraits</h3>
       <div class="columns is-multiline">
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/ff92b5ebd4d73738fe36876ebd5eb163.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/b882a56f87be722f24206e007c31ee4c.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Dance</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;86.0</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/9ae245a27cc5ea9d2f3fae9692250281.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/166f24971e567ed278e8b2a3ec711446.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Indoor Scene</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;79.8</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/6ecb44305c0a4c421201b7bcfd369acb.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/3db0ff4a6485e5f549e8d0bbf07b475b.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Museum</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 29.97&nbsp;fps &middot; MOS&nbsp;78.8</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/0bf502575940bd9be7e1b25347bca1cd.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/93cd38af54ae7762d8c3c44f50130a49.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Singing in Room</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;80.1</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/e0f4ae87eab9ef3f16ad1293af369783.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/6e09adb286b5a926f54999b67cfa0fd5.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Firegrill</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;79.4</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo portrait">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/eba80aa0b7d79ccb29c23580085707ae.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/1e17f5bde97ff2b7e24514c99a436d56.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Art</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Portrait</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;79.3</p>
+            </div>
           </div>
         </div>
       </div>
@@ -495,63 +494,81 @@ print(df["mos_j"].describe())</code></pre>
       <h3 class="title is-4 mt-6 sample-group-title">Landscapes</h3>
       <div class="columns is-multiline">
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/273a5d8a3b8c2d0eb4d4c8ff5fcfe360.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/bf44eaf6fff562e1f3fd061617c8392f.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Carousel</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 29.97&nbsp;fps &middot; MOS&nbsp;78.4</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/482dc1789b58cd2a353408602e9cd903.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/9dbe220b1d07df571e6a207cf6c126eb.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Nature</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;77.1</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card crowd landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/711db6f2e68898d8ff6c3755959b4b58.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/e5d086082992215d5e18024df6fd0f0c.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Sunset</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Crowd &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 59.94&nbsp;fps &middot; MOS&nbsp;76.9</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/422c625efdcdb6df6da4ec26d5d52ddd.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/3b77fab10ee478d0b98fa27e04e24601.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Light Show</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 30&nbsp;fps &middot; MOS&nbsp;81.1</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/049e611e4432f4aabdd5f54f22d1f358.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/7dc195a8b4da9caf63de2fb14b9dddba.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Birds</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 58.69&nbsp;fps &middot; MOS&nbsp;80.9</p>
+            </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card sample-card vimeo landscape">
             <div class="card-image">
               <video class="video-card" controls preload="metadata">
-                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/c896367a38bc24a47e93cbdc8fa6a77a.mp4" type="video/mp4">
+                <source src="https://ugchdrmturk.s3.us-east-2.amazonaws.com/videos/4b5bb3bc6b46b275c957f1dd512b89e8.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="card-content has-text-centered"><p class="subtitle is-6">Nature (2)</p></div>
+            <div class="card-content has-text-centered">
+              <p class="subtitle is-6">Vimeo &middot; Landscape</p>
+              <p class="is-size-7 has-text-grey">1080p &middot; 58.1&nbsp;fps &middot; MOS&nbsp;81.8</p>
+            </div>
           </div>
         </div>
       </div>
@@ -585,6 +602,46 @@ print(df["mos_j"].describe())</code></pre>
     </div>
   </section>
 
+  <!-- Method: HDR-Q + HAPO -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 section-title">Method: HDR-Q + HAPO</h2>
+      <p class="section-intro">
+        <b>HDR-Q</b> is the first multimodal large language model for HDR-UGC quality assessment. It integrates (i) an <b>HDR-aware vision encoder</b> that produces HDR-sensitive embeddings while retaining semantic alignment, and (ii) <b>HDR-Aware Policy Optimization (HAPO)</b>, a reinforcement-learning objective that extends GRPO with HDR-specific grounding and stability terms.
+      </p>
+      <div class="column figure-frame">
+        <img src="static/images/hdrq-hapo-method.png" alt="Overview of HDR-Q with HAPO" class="dataset-figure">
+        <p class="figure-caption"><strong>Overview of HDR-Q with HAPO.</strong> <em>Left:</em> HAPO compares rollouts under HDR inputs (text + SDR + HDR tokens) versus an HDR-deprived pathway (text + SDR only), maximizing their KL divergence to enforce HDR grounding and applying dual-entropy regularization to prevent reward hacking. Group-wise rewards include MOS/attribute accuracy, reasoning quality, and self-rewarding. <em>Right:</em> a LoRA-tuned LLM decodes the HDR-aware reasoning; visual inputs originate from both a standard encoder and our HDR-aware adapter.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h4>HDR-aware vision encoder</h4>
+          <p>A SigLIP-2 encoder adapted with HDR–SDR dual-domain contrastive supervision. Captions are generated by Qwen2.5-VL-72B; HDR embeddings are pushed closer to their caption than the tone-mapped SDR counterpart, preserving 10-bit PQ / BT.2020 cues without collapsing onto SDR representations.</p>
+        </div>
+        <div class="feature-card">
+          <h4>HDR–SDR contrastive KL</h4>
+          <p>Maximizes <code>D<sub>KL</sub>(π<sup>HDR</sup>&nbsp;‖&nbsp;π<sup>SDR</sup>)</code> between rollouts with and without HDR tokens, preventing modality neglect (policies that read textual priors while ignoring the HDR signal).</p>
+        </div>
+        <div class="feature-card">
+          <h4>Dual-entropy regularization</h4>
+          <p>Per-pathway entropy penalties on both HDR and SDR rollouts prevent the trivial "entropy inflation" solution to the contrastive KL while keeping HDR-grounded distributions sharp.</p>
+        </div>
+        <div class="feature-card">
+          <h4>High-entropy weighting (HEW)</h4>
+          <p>Rescales GRPO's group-normalized advantage with per-token entropy, concentrating the learning signal on informative reasoning tokens (e.g., banding, highlight clipping, near-black crushing).</p>
+        </div>
+        <div class="feature-card">
+          <h4>Gaussian MOS reward + self-reward</h4>
+          <p>A Gaussian-weighted regression reward <code>R<sub>sc</sub></code> calibrates fine-grained MOS; a group-level self-reward <code>R<sub>self</sub></code> consolidates within-group consensus for reasoning stability.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Two-stage RL training</h4>
+          <p><b>Stage 1 — Modality Alignment:</b> short HAPO runs align HDR tokens and projection layers. <b>Stage 2 — Full-RFT:</b> complete HAPO on the HDR-UGC corpus. Base: Ovis2.5 + rank-4 LoRA; 8 uniformly-sampled frames at native 10-bit PQ; trained on 4× NVIDIA H200 GPUs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- License -->
   <section class="section section-soft">
     <div class="container is-max-desktop">
@@ -607,9 +664,8 @@ print(df["mos_j"].describe())</code></pre>
       <p class="section-intro">If you find Beyond8Bits useful in your research, please cite:</p>
       <pre class="bibtex-block"><code>@InProceedings{Saini_2026_CVPR_Beyond8Bits,
     author    = {Saini, Shreshth and Chen, Bowen and Birkbeck, Neil and Wang, Yilin and Adsumilli, Balu and Bovik, Alan C.},
-    title     = {Seeing Beyond 8-Bits: Subjective and Objective Quality Assessment of HDR-UGC Videos},
+    title     = {Seeing Beyond8Bits: Subjective and Objective Quality Assessment of HDR-UGC Videos},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
     year      = {2026}
 }</code></pre>
 
