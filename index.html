@@ -245,12 +245,12 @@
     </div>
   </section>
 
-  <!-- Carousel of predicted vs GT frames (reused from BrightVQ sub-study) -->
+  <!-- Carousel of Beyond8Bits source frames with crowd-sourced MOS -->
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 section-title">Sample Frames with Predicted &amp; Ground-Truth Scores</h2>
+      <h2 class="title is-3 section-title">Sample Frames with Crowd-Sourced MOS</h2>
       <p class="section-intro">
-        A sample of Beyond8Bits frames with <b>Predicted Score</b> from HDR-Q and the corresponding crowd-sourced <b>Actual MOS</b>. These frames are drawn from the <i>BrightVQ</i> sub-study and are representative of the larger Beyond8Bits pool.
+        A sample of Beyond8Bits source frames spanning the full MOS range, with the corresponding crowd-sourced <b>Actual MOS</b>. Frames cover both Crowd and Vimeo partitions and both orientations.
       </p>
       <div class="carousel-container frame-carousel">
         <div class="carousel-item carousel-shell" id="carouselItem">
@@ -259,7 +259,7 @@
           </figure>
         </div>
         <div id="carouselCaption" class="has-text-centered mt-3 carousel-caption">
-          <p><strong>Predicted Score:</strong> <span id="score1"></span> &nbsp;|&nbsp; <strong>Actual MOS:</strong> <span id="score2"></span></p>
+          <p><strong>Actual MOS:</strong> <span id="actualMos"></span> &nbsp;·&nbsp; <span id="frameMeta" class="has-text-grey"></span></p>
         </div>
       </div>
       <div class="buttons is-centered mt-4">
@@ -713,8 +713,8 @@ print(df["split"].value_counts())  # train / test</code></pre>
     let imagesData = [];
     let currentIndex = 0;
     const imageElement = document.getElementById("carouselImage");
-    const score1Element = document.getElementById("score1");
-    const score2Element = document.getElementById("score2");
+    const mosElement = document.getElementById("actualMos");
+    const metaElement = document.getElementById("frameMeta");
     const captionElement = document.getElementById("carouselCaption");
 
     async function fetchJson(url) {
@@ -753,8 +753,7 @@ print(df["split"].value_counts())  # train / test</code></pre>
     function updateCarousel() {
       if (imagesData.length === 0) return;
       const frame = imagesData[currentIndex];
-      const score1 = Number.parseFloat(frame.score1);
-      const score2 = Number.parseFloat(frame.score2);
+      const mos = Number.parseFloat(frame.mos);
 
       imageElement.style.opacity = "0";
       imageElement.onload = () => { imageElement.style.opacity = "1"; };
@@ -765,8 +764,9 @@ print(df["split"].value_counts())  # train / test</code></pre>
       imageElement.src = frame.src;
       imageElement.alt = `HDR-UGC sample frame ${currentIndex + 1}`;
 
-      score1Element.textContent = Number.isFinite(score1) ? score1.toFixed(2) : "N/A";
-      score2Element.textContent = Number.isFinite(score2) ? score2.toFixed(2) : "N/A";
+      mosElement.textContent = Number.isFinite(mos) ? mos.toFixed(2) : "N/A";
+      const metaBits = [frame.type, frame.orientation, frame.resolution, frame.framerate ? `${frame.framerate} fps` : null].filter(Boolean);
+      metaElement.textContent = metaBits.join(" · ");
     }
 
     document.getElementById("prevBtn").addEventListener("click", () => {
