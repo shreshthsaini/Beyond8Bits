@@ -144,18 +144,6 @@ Paired with the dataset, we release **HDR-Q**, the first MLLM designed for HDR-U
 - **Rewards:** Gaussian-weighted MOS regression reward `R_sc` + format reward `R_fmt` + group-level self-reward `R_self`.
 - **Backbone + compute:** Ovis2.5 base with rank-4 LoRA adapters; 8 uniformly-sampled frames per clip; trained on 4× NVIDIA H200 GPUs; two-stage RL (modality alignment → full RFT).
 
-Training code is intentionally **not** released in this repo for now — this repository is the **dataset + project page** companion to the paper. Full method details are in the paper.
-
----
-
-## Benchmark headline numbers (from paper)
-
-**In-domain on Beyond8Bits (Table 1):** HDR-Q (full) — SRCC **0.9206**, PLCC **0.9118**, RMSE **5.16**, KRCC **0.7218**. Next-best is HIDRO-VQA at SRCC 0.8508 / PLCC 0.8784.
-
-**Zero-shot cross-dataset (Table 2):**
-- **LIVE-HDR** — HDR-Q (full): SRCC **0.9081**, PLCC **0.8978**, RMSE **7.60**. Next-best HIDRO-VQA 0.8793 SRCC.
-- **SFV+HDR** — HDR-Q (full): SRCC **0.7251**, PLCC **0.7502**, RMSE **0.2514**. Next-best HIDRO-VQA 0.7003 SRCC.
-
 ---
 
 ## Running the project page locally
