@@ -146,18 +146,6 @@ Paired with the dataset, we release **HDR-Q**, the first MLLM designed for HDR-U
 
 ---
 
-## Running the project page locally
-
-```bash
-# from the repo root:
-python -m http.server 8000
-# then open http://localhost:8000/
-```
-
-The carousel loads `images_data.json` from the site root; the 99 sample frames live in `images/sample_frames/`.
-
----
-
 ## License
 
 - **Metadata / CSVs / TXT manifests / website code:** CC BY 4.0 (as stated in the paper).
