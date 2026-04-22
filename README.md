@@ -159,13 +159,15 @@ See the project page for the full terms of use.
 ## Citation
 
 ```bibtex
-@InProceedings{Saini_2026_CVPR_Beyond8Bits,
-    author    = {Saini, Shreshth and Chen, Bowen and Birkbeck, Neil and Wang, Yilin and Adsumilli, Balu and Bovik, Alan C.},
-    title     = {Seeing Beyond8Bits: Subjective and Objective Quality Assessment of HDR-UGC Videos},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2026}
+@article{Saini_2026_Beyond8Bits,
+    author  = {Saini, Shreshth and Chen, Bowen and Birkbeck, Neil and Wang, Yilin and Adsumilli, Balu and Bovik, Alan C.},
+    title   = {Seeing Beyond8Bits: Subjective and Objective Quality Assessment of HDR-UGC Videos},
+    journal = {arXiv preprint arXiv:2603.00938},
+    year    = {2026}
 }
 ```
+
+_(CVPR 2026 proceedings BibTeX will replace this entry once the official version is published.)_
 
 Please also consider citing the predecessor sub-studies Beyond8Bits extends:
 
