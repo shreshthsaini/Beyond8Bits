@@ -197,4 +197,6 @@ Please also consider citing the predecessor sub-studies Beyond8Bits extends:
 
 ## Contact
 
-Shreshth Saini — `saini.2 at utexas.edu` · [website](https://shreshthsaini.github.io) · [Google Scholar](https://scholar.google.co.in/citations?user=OpZ-5K4AAAAJ&hl=en)
+Main PoC: Shreshth Saini — `saini.2 at utexas.edu` · [website](https://shreshthsaini.github.io) · [Google Scholar](https://scholar.google.co.in/citations?user=OpZ-5K4AAAAJ&hl=en)
+
+Future Data Mantainer: Pragyadipta Adhya — `pragyadipta.adhya at colorado.edu` · [website](https://pragyadiptaadhya.github.io/) · [Google Scholar](https://scholar.google.com/citations?user=gj0i5hsAAAAJ&hl=en&oi=ao)
